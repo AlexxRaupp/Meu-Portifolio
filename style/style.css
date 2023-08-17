@@ -285,4 +285,9 @@ h3{
     .image-container img {
         display: none;
     }
+    .home{
+        
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
     }
