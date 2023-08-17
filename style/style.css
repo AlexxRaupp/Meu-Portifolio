@@ -189,7 +189,7 @@ h3{
     color: var(--main-color);
 }
 
-@media (max-width: 990px){
+@media (max-width: 500px){
 #menu-icon {
     font-size: 1.6rem;
     display: block;
