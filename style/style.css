@@ -5,7 +5,6 @@
 
 
 *{
-
  text-decoration: none;
 }
 
@@ -63,7 +62,7 @@ section {
     
     width: 220px;
     padding-left: 50px;
-    height: auto; 
+    background-position: center;
   }
 
 img {
@@ -77,7 +76,7 @@ img {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-30px);
+        transform: translateY(-3px);
     }
     100% {
         transform: translateY(0px);
@@ -129,8 +128,8 @@ display: flex;
   font-size: 34px;
   margin-left: 30px;
   font-family:'Bricolage Grotesque', sans-serif;
-  width: 35px;
-  height: 35px;
+  width: 65px;
+  height: 34px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -148,7 +147,7 @@ span{
 
 .R {
     margin: 0;
-    width: 62%;
+    width: 100%;
     
 
 }
@@ -189,33 +188,7 @@ h3{
     color: var(--main-color);
 }
 
-@media (max-width: 900px){
-#menu-icon {
-    font-size: 1.6rem;
-    display: block;
-    color: var(--main-color);
-    cursor: pointer;
-}
-.navbar {
-    position: absolute;
-    top: 13%;
-    right: -100%;
-    width: 49px;
-    height: 26vh;
-    background: #00aad04d;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px 20px ;
-    transition: all .55s ease;
-}
-.navbar a {
-    margin-left: 0;
-    display: block;
-    margin: 7px 0;
-}
-.navbar.open {
- right: 0;
-}
+
 
 
 
@@ -279,3 +252,37 @@ h3{
 .home-sci a:hover::before {
     width: 100%;
 }
+
+@media (max-width: 750px){
+    #menu-icon {
+        font-size: 1.4rem;
+        display: block;
+        color: var(--main-color);
+        cursor: pointer;
+    }
+    .navbar {
+        position: absolute;
+        top: 64%;
+        right: -100%;
+        width: 64px;
+        height: 26vh;
+        margin-right: 47px;
+        align-items: center;
+        flex-direction: column;
+        transition: all .55s ease;
+    }
+    .navbar a {
+        margin-left: 0;
+        display: block;
+        margin: 7px 0;
+    }
+    .navbar.open {
+     right: 0;
+    }
+    .circle {
+     width: 44px;
+    }
+    .image-container img {
+        display: none;
+    }
+    }
