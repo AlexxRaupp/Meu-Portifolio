@@ -189,7 +189,7 @@ h3{
     color: var(--main-color);
 }
 
-@media (max-width: 500px){
+@media (max-width: 900px){
 #menu-icon {
     font-size: 1.6rem;
     display: block;
@@ -199,8 +199,8 @@ h3{
 .navbar {
     position: absolute;
     top: 13%;
-    right: 48px;
-    width: 47px;
+    right: -100%;
+    width: 49px;
     height: 26vh;
     background: #00aad04d;
     align-items: center;
