@@ -198,23 +198,34 @@ h3{
 }
 .navbar {
     position: absolute;
-    top: 13%;
-    right: 48px;
-    width: 47px;
-    height: 26vh;
+    top: 61%;
+    right: 54px;
+    width: 85px;
+    height: 27vh;
     background: #00aad04d;
     align-items: center;
     flex-direction: column;
-    padding: 50px 20px ;
     transition: all .55s ease;
 }
 .navbar a {
     margin-left: 0;
     display: block;
     margin: 7px 0;
+    padding-top: 5px;
 }
 .navbar.open {
  right: 0;
+}
+
+.R{
+    position: absolute;
+    left: 111px;
+    bottom: 34px;
+}
+
+img {
+    display: none;
+}
 }
 
 
