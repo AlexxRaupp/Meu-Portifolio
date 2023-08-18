@@ -218,9 +218,10 @@ h3{
 }
 
 .R{
-    position: absolute;
-    left: 111px;
-    bottom: 34px;
+    position: relative;
+    right:29px;
+    top: 6px;
+    
 }
 
 img {

@@ -122,6 +122,41 @@ section#redes-sociais6 img{
     
 }
 
+#menu-icon {
+    position: absolute;
+    font-size: 23px;
+    right: 30px;
+    margin-top: 41px;
+    color: #00abd0;
+    point-cl
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 30px;
+    width: 85px;
+    height: 27vh;
+    background: #00aad04d;
+    align-items: center;
+    flex-direction: column;
+    transition: all .55s ease;
+}
+.navbar a {
+    margin-left: 0;
+    display: block;
+    margin: 4px 0;
+    padding-top: 5px;
+}
+.navbar.open {
+ right: 0;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
 
 
 
